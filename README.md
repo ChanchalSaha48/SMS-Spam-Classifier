@@ -44,6 +44,7 @@
 		    (1,1)     | 96.86%
 		    (1,2)     | 97.22%
 		    (1,3)     | 97.40% 
+			
 **Code**: [day2_logreg_ngrams.ipynb](https://github.com/ChanchalSaha48/SMS-Spam-Classifier/blob/main/day_logreg_ngrams.ipynb)
 
 ---
@@ -63,6 +64,7 @@
  - **SVM** and **Logistic Regression** often benifit from tuning **C, penalty and kernel**
 
 -**Results**:
+
              **Model**             | **Best Params**                   | **Accuracy**
 			 Logistic Regression   | C: 5, penalty: l2, solver: saga   | 97.85%
 			 SVM                   | C: 10, gamma: 0.1, kernel: rbf    | 98.30%
