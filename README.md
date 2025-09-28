@@ -19,7 +19,7 @@
        
 -**Result**: Got a simple but strong baseline accuracy.
 
-**Code**: day1_baseline_model.ipynb(https://github.com/ChanchalSaha48/SMS-Spam-Classifier/blob/main/day1_baseline_model.ipynb)
+**Code**: [day1_baseline_model.ipynb](https://github.com/ChanchalSaha48/SMS-Spam-Classifier/blob/main/day1_baseline_model.ipynb)
 
 
 ---
