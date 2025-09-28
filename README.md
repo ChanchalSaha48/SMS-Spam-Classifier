@@ -1,21 +1,47 @@
-# SMS Spam Classifier -Day 1
+# SMS Spam Detection
 
-## Overview
-This is a baseline **SMS Spam Classifier** using **TF-IDF** and **Multinomial Naive Bayes**.
-
-
-**Goal:**
--Build a simple machine learning model to classify SMS message as **ham**(not spam) or **spam**.
--Learn basic text preprocessing, feature extraction and evaluation metrics.
+# Dataset
+ -**SMS Spam Collection Dataset(UCI/kaggle)**
+ -5,574 **SMS** message labeled as **ham**(not spam) or **spam**
 
 ---
 
-## Dataset
--The Dataset contains two columns:
- -'v1' -> label ('ham' or 'spam')
- -'v2' -> Message text
--Only 'v1' and 'v2' are used
+# Day1- Baseline Model: TF-IDF +Naive Bayes
 
+- **Goal**: Build a very first baseline ML pipeline
+- **Approach**:
+     - Preprocess text -> TF-IDF feature
+     - Train **Naive Bayes** classifier
+- **Why Naive Bayes?**
+     - Extremely fast
+     - Works well for text classification
+-**Result**: Got a simple but strong baseline accuracy.
+**Code**: day1_baseline_model.ipynb 
+
+
+---
+
+# Day2-  TF-IDF + Logistic Regression ( with n-grams)
+
+- **Goal**: Compare Logistic Regression with Naive Bayes and test n-gram ranges.
+
+- **Approach**:
+     - Use ngram_range=(1,1),(1,2),(1,3)
+     - Train **Logistic Regression** model
+     - Compare Performance
+
+- **Why n-grams?**
+     - (1,1)-> single words
+     - (1,2)-> word pairs like "free entry" ,"call now"
+     - (1,3)-> triples, captures more context but may overfit
+
+-**Result**: 
+
+		n-gram Range  | Accuracy
+		    (1,1)     | 0.9686
+		    (1,2)     | 0.9722
+		    (1,3)     | 0.9740  
+**Code**: day2_logreg_ngrams.ipynb 
 
 ---
 
