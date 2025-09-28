@@ -65,7 +65,7 @@
 
 -**Results**:
 
-             **Model**             | **Best Params**                   | **Accuracy**
+                Model              |        Best Params                |  Accuracy
 			 Logistic Regression   | C: 5, penalty: l2, solver: saga   | 97.85%
 			 SVM                   | C: 10, gamma: 0.1, kernel: rbf    | 98.30%
 			 
