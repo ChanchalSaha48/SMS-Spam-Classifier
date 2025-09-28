@@ -1,7 +1,7 @@
 # SMS Spam Classifier
 
 # Dataset
- -**[SMS Spam Collection Dataset(UCI/kaggle)](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)**
+ -**[SMS Spam Collection Dataset(UCI/kaggle)]**(https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
  
  -5,574 **SMS** message labeled as **ham**(not spam) or **spam**
 
@@ -44,7 +44,7 @@
 		    (1,1)     | 0.9686
 		    (1,2)     | 0.9722
 		    (1,3)     | 0.9740  
-**Code**: day2_logreg_ngrams.ipynb(https://github.com/ChanchalSaha48/SMS-Spam-Classifier/blob/main/day_logreg_ngrams.ipynb)
+**Code**: [day2_logreg_ngrams.ipynb](https://github.com/ChanchalSaha48/SMS-Spam-Classifier/blob/main/day_logreg_ngrams.ipynb)
 
 ---
 
