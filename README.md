@@ -66,6 +66,7 @@
              **Model**             | **Best Params**                   | **Accuracy**
 			 Logistic Regression   | C: 5, penalty: l2, solver: saga   | 97.85%
 			 SVM                   | C: 10, gamma: 0.1, kernel: rbf    | 98.30%
+**Code**: [day3_hyperameter_tuning.ipynb](https://github.com/ChanchalSaha48/SMS-Spam-Classifier/blob/main/day3_hyperparameter_tuning.ipynb)
 
 ---
 
