@@ -16,7 +16,9 @@
 - **Why Naive Bayes?**
      - Extremely fast
      - Works well for text classification
+       
 -**Result**: Got a simple but strong baseline accuracy.
+
 **Code**: day1_baseline_model.ipynb 
 
 
