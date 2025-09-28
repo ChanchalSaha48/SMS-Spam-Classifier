@@ -1,4 +1,4 @@
-# SMS Spam Detection
+# SMS Spam Classifier
 
 # Dataset
  -**SMS Spam Collection Dataset(UCI/kaggle)**
